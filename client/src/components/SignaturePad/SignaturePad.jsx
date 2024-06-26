@@ -95,7 +95,7 @@ const SignaturePad = ({ onEnd ,takeCard , agreed , agreedFunc , submit , submitF
                   .then((e)=>{
 
                         console.log(jsonData);
-                        fetch('http://localhost:3001/send', {
+                        fetch('http://192.168.101.25::3001/send', {
                               method: 'POST',
                               // headers: {
                               // 'Content-Type': 'application/json'
